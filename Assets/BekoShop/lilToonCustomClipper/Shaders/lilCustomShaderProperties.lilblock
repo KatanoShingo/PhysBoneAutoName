@@ -1,24 +1,9 @@
-
-        //----------------------------------------------------------------------------------------------------------------------
-        // Custom Properties
-        _ClipEdgeColor ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        _ClipEdgeColor2 ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        _ClipEdgeColor3 ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        _ClipEdgeColor4 ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        [lilVec4] _ClipEdgeWidth ("エッジの幅", Vector) = (0.1, 0.1, 0.0, 0.0)
-        [lilVec4] _ClipEdgeBlur ("エッジのぼかし", Vector) = (0.5, 0.5, 0.0, 0.0)
-        [lilVec4] _ClipEdgeBlendMode ("エッジのブレンドモード", Float) = (0.0, 0.0, 0.0, 0.0)
-        [lilVec4] _ClipShapePositionX ("クリッピングする形状の座標 X", Vector) = (0.0, 0.0, 0.0, 0.0)
-        [lilVec4] _ClipShapePositionY ("クリッピングする形状の座標 Y", Vector) = (0.0, 0.0, 0.0, 0.0)
-        [lilVec4] _ClipShapeScaleX ("クリッピングする形状のスケール X", Vector) = (0.5, 0.5, 0.5, 0.5)
-        [lilVec4] _ClipShapeScaleY ("クリッピングする形状のスケール Y", Vector) = (0.5, 0.5, 0.5, 0.5)
-        [lilVec4] _ClipShapeRotation ("クリッピングする形状の回転", Vector) = (0.0, 0.0, 0.0, 0.0)
-        [lilVec4] _ClipShapes ("クリッピングする形状", Float) = (0.0, 0.0, 0.0, 0.0)
-        [lilVec4] _Clip_N_Shape ("星の鋭角の数", Vector) = (5.0, 5.0, 5.0, 5.0)
-        [lilVec4] _Asteroid_Shape ("アステロイドの形", Vector) = (0.5, 0.5, 0.5, 0.5)
-        _ClipEdgeColor2 ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        _ClipEdgeColor3 ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        _ClipEdgeColor4 ("エッジの色", Color) = (0.0, 0.0, 0.0, 1.0)
-        [Toggle] _Clip2 ("穴2つ目", Float) = 0.0
-        [Toggle] _Clip3 ("穴3つ目", Float) = 0.0
-        [Toggle] _Clip4 ("穴4つ目", Float) = 0.0
+[Header(Heart FX)]
+[NoScaleOffset]_HeartTex ("Heart Texture", 2D) = "white" {}
+[NoScaleOffset]_MaskTex ("Eye Mask Texture", 2D) = "black" {}
+[HDR]_HeartColor ("Heart Color", Color) = (1, 0.2, 0.5, 1)
+_HeartStrength ("Heart Strength", Range(0, 1)) = 0.8
+_DistanceThreshold ("Distance Threshold", Range(0.1, 5.0)) = 1.5
+[HideInInspector]_TargetPosX ("Target X", Float) = 0
+[HideInInspector]_TargetPosY ("Target Y", Float) = 0
+[HideInInspector]_TargetPosZ ("Target Z", Float) = 0
