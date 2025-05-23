@@ -1,9 +1,0 @@
-[Header(Heart FX)]
-[NoScaleOffset]_HeartTex ("Heart Texture", 2D) = "white" {}
-[NoScaleOffset]_MaskTex ("Eye Mask Texture", 2D) = "black" {}
-[HDR]_HeartColor ("Heart Color", Color) = (1, 0.2, 0.5, 1)
-_HeartStrength ("Heart Strength", Range(0, 1)) = 0.8
-_DistanceThreshold ("Distance Threshold", Range(0.1, 5.0)) = 1.5
-[HideInInspector]_TargetPosX ("Target X", Float) = 0
-[HideInInspector]_TargetPosY ("Target Y", Float) = 0
-[HideInInspector]_TargetPosZ ("Target Z", Float) = 0
